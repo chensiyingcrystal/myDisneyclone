@@ -1,9 +1,16 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h2>Hello YouTube and Crystal! Let's build the Disney+ Clone!</h2>
+    <div className="App"> 
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />}>
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
