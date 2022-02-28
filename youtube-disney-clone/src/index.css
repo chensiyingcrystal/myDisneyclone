@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-* {
+* { /* universal selector;The * selector in CSS is used to select all the elements in a HTML document*/
   box-sizing: border-box;
 }
 
